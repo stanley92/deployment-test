@@ -19,6 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "build:stage": "REACT_APP_ENV=stage react-scripts build",
+    "build:production": "REACT_APP_ENV=production react-scripts build",
     "predeploy": "npm run build:stage",
     "deploy": "gh-pages -d build"
   },

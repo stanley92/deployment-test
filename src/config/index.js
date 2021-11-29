@@ -11,6 +11,7 @@ if (env) {
       break;
     case "PRODUCTION":
       config.baseUrl = "http://localhost.com/";
+      break;
   }
 }
 
